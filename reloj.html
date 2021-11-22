@@ -1,0 +1,28 @@
+<div class="Clock_container">
+  <div class="Clock-content">
+    <h1 class="Clock-title">¡Apurate! Esta promoción finaliza en:</h1>
+    <div id="clock">
+      <!-- This component goes inside the JS, remove from here-->
+      <div class="Clock">
+        <div class="Clock__Time Clock__Time--days">
+          <h2>${time.remainDays}</h2>
+          <h4>Dias</h4>
+        </div>
+        <div class="Clock__Time Clock__Time--hours">
+          <h2>${time.remainHours}</h2>
+          <h4>Horas</h4>
+        </div>
+        <div class="Clock__Time Clock__Time--minutes">
+          <h2>${time.remainMinutes}</h2>
+          <h4>Minutos</h4>
+        </div>
+        <div class="Clock__Time Clock__Time--seconds">
+          <h2>${time.remainSeconds}</h2>
+          <h4>Segundos</h4>
+        </div>
+      </div>
+      <!-- This component goes inside the JS, remove from here-->
+    </div>
+  </div>
+  <script type="text/javascript" src="/files/cuenta-regresiva.js"></script>
+</div>
